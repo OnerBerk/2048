@@ -1,0 +1,157 @@
+@font-face 
+{
+    font-family: 'aliceregular';
+    src: url('police/alice-regular-webfont.eot');
+    src: url('police/alice-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/alice-regular-webfont.woff2') format('woff2'),
+         url('police/alice-regular-webfont.woff') format('woff'),
+         url('police/alice-regular-webfont.ttf') format('truetype'),
+         url('police/alice-regular-webfont.svg#aliceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'barrioregular';
+    src: url('police/barrio-regular-webfont.eot');
+    src: url('police/barrio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/barrio-regular-webfont.woff2') format('woff2'),
+         url('police/barrio-regular-webfont.woff') format('woff'),
+         url('police/barrio-regular-webfont.ttf') format('truetype'),
+         url('police/barrio-regular-webfont.svg#barrioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html
+{
+    width: 100%;
+}
+
+table 
+{
+    margin: auto;
+    padding: 17px;
+    border-spacing: 10px;
+    border: double 6px black;
+    border-radius: 4%;
+    margin-top: 8%;
+}
+
+td 
+{
+    width: 90px;
+    height: 90px;
+    border: solid 2px darkgrey;
+    border-radius: 10%;
+    text-align: center;
+    background-color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+
+
+td[nbr="0"]
+{
+    color: blanchedalmond; 
+}
+td[nbr="2"]
+{
+    color: green; 
+}
+td[nbr="4"]
+{
+    color: aqua; 
+}
+td[nbr="8"]
+{
+    color: yellow; 
+}
+td[nbr="16"]
+{
+    color: burlywood; 
+}
+td[nbr="32"]
+{
+    color: red; 
+}
+td[nbr="64"]
+{
+    color: royalblue; 
+}
+td[nbr="128"]
+{
+    color: purple; 
+}
+td[nbr="256"]
+{
+    color: magenta; 
+}
+td[nbr="512"]
+{
+    color: chocolate; 
+}
+td[nbr="1024"]
+{
+    color:silver; 
+}
+td[nbr="2048"]
+{
+    color:gold; 
+}
+
+
+body
+{
+    background-image: url(https://images6.alphacoders.com/573/573676.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    font-family: 'barrioregular'
+}
+
+.titre
+{
+font-size: 5em;
+position: absolute;
+top: 30%;
+right: 20%;
+font-family: 'barrioregular';
+}
+
+button
+{
+    font-family: 'barrioregular';
+    font-size: 1.5em;
+}
+
+.batman
+{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 7%;
+}
+
+.marvel
+{
+    position: absolute;
+    top: 0px;
+    right: 40%;
+    width: 20%;
+}
+.music
+{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.souris
+{
+    position: absolute;
+    bottom: 8%;
+    right: 12%;
+}

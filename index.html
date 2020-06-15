@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rush 2048</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="titre"> 2048</div>
+
+    <div class="Games">
+        <!-- le 2048 sera inséré ici -->
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="Base2048.js"></script>
+    <script type="text/javascript">
+        $(function()
+        {
+            $('.Games').game2048(); // appel de la fonction 'game2048' du pluggin appliquée à la div de class 'Games'
+        });
+    </script></br></br></br>
+
+<center>
+<button style="border-radius: 10%; background-color: black; padding: 1%; color: blanchedalmond;"> Recommencer </button>
+</center>
+<p> <img src="tof/batman.gif" class="batman" title="2 points en plus Mathieu"></p>
+<p> <img src="tof/original.gif" class="marvel" title="Gambatte Kudasai"> </p>
+<p class="souris"> Passe ta souris là -----> </p>
+<audio controls class="music">
+    <source src="musique/Redbone - Come And Get Your Love.mp3">
+    <source src="musique/Otis Redding - (Sittin On) The Dock Of The Bay (Official Music Video).mp3">
+</audio>
+
+</body>
+</html>
